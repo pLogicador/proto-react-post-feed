@@ -1,0 +1,25 @@
+.button {
+  width: 100%;
+  background: orangered;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  padding: 15px;
+  box-shadow: 0 0 10px black;
+  transition: transform 100ms ease-in-out;
+  margin-top: 25px;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background: #00ff77;
+  color: #ff00d9;
+}
+
+.button:disabled {
+  background: #585858;
+  color: transparent;
+  cursor: not-allowed;
+}

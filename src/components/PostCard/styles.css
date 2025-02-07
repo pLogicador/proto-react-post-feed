@@ -1,0 +1,18 @@
+.post {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px black;
+  transition: transform 100ms ease-in-out;
+}
+
+.post:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.post img {
+  max-width: 100px;
+}
+
+.post-content {
+  padding: 30px;
+}
